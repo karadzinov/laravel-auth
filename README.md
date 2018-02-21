@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     #### Laravel-Auth is a Complete Build of Laravel 5.5 with Email Registration Verification, Social Authentication, User Roles and Permissions, User Profiles, and Admin restricted user management system.
 [![Build Status](https://travis-ci.org/jeremykenedy/laravel-auth.svg?branch=master)](https://travis-ci.org/jeremykenedy/laravel-auth)
 [![StyleCI](https://styleci.io/repos/44714043/shield?branch=master)](https://styleci.io/repos/44714043)
@@ -919,3 +920,7 @@ Open source projects are a the community’s responsibility to use, contribute, 
 
 ### Laravel Auth License
 Laravel-auth is licensed under the [MIT license](https://opensource.org/licenses/MIT). Enjoy!
+=======
+# laravel-auth
+Laravel-Auth is a Complete Build of Laravel 5.5 with Email Registration Verification, Social Authentication, User Roles and Permissions, User Profiles, and Admin restricted user management system.  
+>>>>>>> e92aeb20e741f0d691c3c3034dfbcd022974c36c
