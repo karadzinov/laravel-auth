@@ -64,5 +64,6 @@ class Kernel extends HttpKernel
         'permission'  => \jeremykenedy\LaravelRoles\Middleware\VerifyPermission::class,
         'level'       => \jeremykenedy\LaravelRoles\Middleware\VerifyLevel::class,
         'currentUser' => \App\Http\Middleware\CheckCurrentUser::class,
+        '2fa'         => \PragmaRX\Google2FALaravel\Middleware::class,
     ];
 }

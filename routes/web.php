@@ -13,8 +13,15 @@
 |
 */
 
+
+Route::group(['middleware' => ['activity']], function () {
+
 // Homepage Route
-Route::get('/', 'WelcomeController@welcome')->name('welcome');
+    Route::get('/', 'WelcomeController@welcome')->name('welcome');
+
+});
+
+
 
 // Authentication Routes
 Auth::routes();
@@ -124,6 +131,10 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
     Route::get('routes', 'AdminDetailsController@listRoutes');
     Route::get('active-users', 'AdminDetailsController@activeUsers');
 });
+
+Route::get('/admin', function () {
+    return view('welcome');
+})->middleware(['auth', '2fa']);
 
 Route::redirect('/php', '/phpinfo', 301);
 Route::get('/phpinfo', function() {
