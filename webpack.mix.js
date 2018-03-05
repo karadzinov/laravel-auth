@@ -11,6 +11,17 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css')
-   .version();
+
+mix.styles([
+    'public/css/style.css',
+    'public/css/font-awesome.min.css',
+    'public/css/main.css',
+    'public/css/bundle.css',
+    'public/css/custom.css'
+], 'public/css/all.css');
+
+
+mix.scripts([
+    'public/js/bundle.js',
+    'public/js/fury.js'
+], 'public/js/all.js');
