@@ -1365,6 +1365,15 @@
 <script src="/js/bundle.js"></script>
 <script src="/js/fury.js"></script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115084310-1');
+</script>
 
 </body>
 </html>
