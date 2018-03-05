@@ -1298,7 +1298,7 @@
                         </li>
                         <li class="mb-2">
                             <span class="icon icon-Mail text-primary mr-2"></span> <a
-                                    href="mailto:support@echotheme.com">support@echotheme.com</a>
+                                    href="mailto:support@pingdevs.com">support@pingdevs.com</a>
                         </li>
                         <li class="mb-2">
                             <span class="icon icon-Pointer text-primary mr-2"></span> Melbourne, Australia
