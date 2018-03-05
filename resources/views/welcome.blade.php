@@ -17,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
 
     <!--Icon fonts-->
-    <link rel="stylesheet" href="/assets/vendor/style.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/vendor/main.css">
+    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/style.css">
+    <link rel="stylesheet" href="{{ env('APP_URL') }}/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/main.css">
 
     <!-- Stylesheet-->
     <!--
@@ -33,8 +33,8 @@
       <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css">
       <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css">-->
 
-    <link rel="stylesheet" href="/assets/vendor/bundle.css">
-    <link rel="stylesheet" href="/assets/vendor/custom.css">
+    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/bundle.css">
+    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/custom.css">
 
 </head>
 
@@ -126,7 +126,7 @@
 
 
 <section class="u-py-md-250 u-flex-center"
-         style="background:#ECF5FE url(/images/hero-banner.png) no-repeat; background-size:cover; background-position: top center;">
+         style="background:#ECF5FE url({{ env('IMG_URL') }}/images/hero-banner.png) no-repeat; background-size:cover; background-position: top center;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 mb-5 mb-lg-0">
@@ -194,7 +194,7 @@
                 <a href="" class="btn btn-primary btn-rounded mt-4">More About Us</a>
             </div>
             <div class="col-12 u-mt-70 text-center">
-                <img src="/images/s-1.png" alt="">
+                <img src="{{ env('IMG_URL') }}/images/s-1.png" alt="">
             </div>
         </div> <!-- END row-->
     </div> <!-- END container-->
@@ -366,7 +366,7 @@
                     <div class="tab-pane fade" id="tab1_2">
                         <div class="row u-my-70 align-items-center">
                             <div class="col-md-6 mb-5">
-                                <img src="/images/s-3.png" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.png" alt="">
                             </div> <!-- END col-md-6 -->
                             <div class="col-md-6">
                                 <h2 class="mb-4">
@@ -395,7 +395,7 @@
                     <div class="tab-pane fade" id="tab1_3">
                         <div class="row u-my-70 align-items-center">
                             <div class="col-md-6 mb-5">
-                                <img src="/images/s-2.png" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-2.png" alt="">
                             </div> <!-- END col-md-6 -->
                             <div class="col-md-6">
                                 <h2 class="mb-4">
@@ -544,7 +544,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -555,7 +555,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-4.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -566,7 +566,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -607,7 +607,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="/images/s-4.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -618,7 +618,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -629,7 +629,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -670,7 +670,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -681,7 +681,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-4.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -692,7 +692,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -733,7 +733,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="/images/s-4.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -744,7 +744,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -755,7 +755,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="/images/s-3.jpg" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -779,7 +779,7 @@
 
 
 <section id="team"
-         style="background:#ecf5fd url(/images/bg-2.png) no-repeat;background-position: center center;">
+         style="background:#ecf5fd url({{ env('IMG_URL') }}/images/bg-2.png) no-repeat;background-position: center center;">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
@@ -792,7 +792,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="/images/1_1.jpg" alt="">
+                        <img class="w-100" src="{{ env('IMG_URL') }}/images/1_1.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -824,7 +824,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="/images/2.jpg" alt="">
+                        <img class="w-100" src="{{ env('IMG_URL') }}/images/2.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -856,7 +856,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="/images/3.jpg" alt="">
+                        <img class="w-100" src="{{ env('IMG_URL') }}/images/3.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -888,7 +888,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="/images/4.jpg" alt="">
+                        <img class="w-100" src="{{ env('IMG_URL') }}/images/4.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -965,7 +965,7 @@
 
 
 <section id="reviews"
-         style="background:#0081ff url(/images/bg-3.png) no-repeat;background-position: center center;">
+         style="background:#0081ff url({{ env('IMG_URL') }}/images/bg-3.png) no-repeat;background-position: center center;">
     <div class="container">
 
         <div class="row">
@@ -1032,19 +1032,19 @@
         <div class="row">
             <div class="col-12 d-md-flex justify-content-between text-center">
                 <div class="p-3">
-                    <img src="/images/micosoft.png" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/micosoft.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="/images/envato.png" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/envato.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="/images/dribbble.png" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/dribbble.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="/images/google.png" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/google.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="/images/micosoft.png" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/micosoft.png" alt="">
                 </div>
             </div>
         </div> <!-- END row-->
@@ -1066,7 +1066,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="/images/plane-up.svg" class="u-h-90" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/plane-up.svg" class="u-h-90" alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Startup
                     </h4>
@@ -1089,7 +1089,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="/images/phone-book.svg" class="u-h-90" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/phone-book.svg" class="u-h-90" alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Professional
                     </h4>
@@ -1112,7 +1112,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="/images/dollar-bag.svg" class="u-h-90" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/dollar-bag.svg" class="u-h-90" alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Business
                     </h4>
@@ -1154,7 +1154,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="card border-0 box-shadow-v3 u-h-100p">
-                    <img src="/images/blog/1.jpg" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/blog/1.jpg" alt="">
                     <div class="u-p-30">
                         <h4>Contrast and Similarity in Design</h4>
                         <p class="d-flex text-muted">
@@ -1171,7 +1171,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="card border-0 box-shadow-v3 u-h-100p">
-                    <img src="/images/blog/3.jpg" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/blog/3.jpg" alt="">
                     <div class="u-p-30">
                         <h4>
                             Hyper conv in 2018
@@ -1194,7 +1194,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="card border-0 box-shadow-v3 u-h-100p">
-                    <img src="/images/blog/2.jpg" alt="">
+                    <img src="{{ env('IMG_URL') }}/images/blog/2.jpg" alt="">
                     <div class="u-p-30">
                         <h4>
                             Awesome design trand in clean design
@@ -1219,7 +1219,7 @@
 
 
 <section id="contact"
-         style="background:#0081ff url(/images/bg-4.png) no-repeat; background-position: center center;">
+         style="background:#0081ff url({{ env('IMG_URL') }}/images/bg-4.png) no-repeat; background-position: center center;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -1362,8 +1362,8 @@
 		<script src="assets/js/smoothscroll.js"></script>
 -->
 
-<script src="/js/bundle.js"></script>
-<script src="/js/fury.js"></script>
+<script src="{{ env('APP_URL') }}/js/bundle.js"></script>
+<script src="{{ env('APP_URL') }}/js/fury.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
