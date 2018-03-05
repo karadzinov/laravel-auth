@@ -14,25 +14,8 @@
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
 
-    <!--Icon fonts-->
-    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/style.css">
-    <link rel="stylesheet" href="{{ env('IMG_URL') }}/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/main.css">
-
-    <!-- Stylesheet-->
-    <!--
-  // ////////////////////////////////////////////////
-  // To Reduce server request and improved page speed drastically all third-party plugin bundle in assets/css/bundle.css
-  // If you wanna add those manually bellow is the sequence
-  // ///////////////////////////////////////////////
-  -->
-    <!--  <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-      <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css">
-      <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css">-->
-
-    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/bundle.css">
-    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/custom.css">
+    {{-- Styles --}}
+    <link href="{{ mix('/css/all.css') }}" rel="stylesheet">
 
 </head>
 
@@ -1360,8 +1343,8 @@
 		<script src="assets/js/smoothscroll.js"></script>
 -->
 
-<script src="{{ env('IMG_URL') }}/js/bundle.js"></script>
-<script src="{{ env('IMG_URL') }}/js/fury.js"></script>
+{{-- Scripts --}}
+<script src="{{ mix('/js/all.js') }}"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
