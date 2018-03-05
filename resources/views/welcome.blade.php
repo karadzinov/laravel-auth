@@ -82,7 +82,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
                PingDevs
             </a>
 
@@ -126,7 +126,7 @@
 
 
 <section class="u-py-md-250 u-flex-center"
-         style="background:#ECF5FE url(assets/img/startup/hero-banner.png) no-repeat; background-size:cover; background-position: top center;">
+         style="background:#ECF5FE url(/images/hero-banner.png) no-repeat; background-size:cover; background-position: top center;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 mb-5 mb-lg-0">
@@ -194,7 +194,7 @@
                 <a href="" class="btn btn-primary btn-rounded mt-4">More About Us</a>
             </div>
             <div class="col-12 u-mt-70 text-center">
-                <img src="assets/img/startup/s-1.png" alt="">
+                <img src="/images/s-1.png" alt="">
             </div>
         </div> <!-- END row-->
     </div> <!-- END container-->
@@ -337,7 +337,7 @@
                     <div class="tab-pane fade show active" id="tab1_1">
                         <div class="row u-my-70 align-items-center">
                             <div class="col-md-6 mb-5">
-                                <img src="assets/img/startup/s-2.png" alt="">
+                                <img src="/images/s-2.png" alt="">
                             </div> <!-- END col-md-6 -->
                             <div class="col-md-6">
                                 <h2 class="mb-4">
@@ -366,7 +366,7 @@
                     <div class="tab-pane fade" id="tab1_2">
                         <div class="row u-my-70 align-items-center">
                             <div class="col-md-6 mb-5">
-                                <img src="assets/img/seo/s-3.png" alt="">
+                                <img src="/images/s-3.png" alt="">
                             </div> <!-- END col-md-6 -->
                             <div class="col-md-6">
                                 <h2 class="mb-4">
@@ -395,7 +395,7 @@
                     <div class="tab-pane fade" id="tab1_3">
                         <div class="row u-my-70 align-items-center">
                             <div class="col-md-6 mb-5">
-                                <img src="assets/img/startup/s-2.png" alt="">
+                                <img src="/images/s-2.png" alt="">
                             </div> <!-- END col-md-6 -->
                             <div class="col-md-6">
                                 <h2 class="mb-4">
@@ -430,7 +430,7 @@
 
 
 <section class="u-py-80"
-         style="background:#273f5b url(assets/img/startup/bg-1.png) no-repeat;background-position: center center;">
+         style="background:#273f5b url(/images/bg-1.png) no-repeat;background-position: center center;">
     <div class="container">
         <div class="row text-center">
 
@@ -544,7 +544,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -555,7 +555,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-4.jpg" alt="">
+                                <img src="/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -566,7 +566,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -607,7 +607,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="assets/img/startup/s-4.jpg" alt="">
+                                <img src="/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -618,7 +618,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -629,7 +629,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -670,7 +670,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -681,7 +681,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-4.jpg" alt="">
+                                <img src="/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -692,7 +692,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -733,7 +733,7 @@
 							]
 						}'>
                             <div class="card">
-                                <img src="assets/img/startup/s-4.jpg" alt="">
+                                <img src="/images/s-4.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">Digital Branding Solution</a>
@@ -744,7 +744,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -755,7 +755,7 @@
                                 </div>
                             </div>  <!-- END card-->
                             <div class="card">
-                                <img src="assets/img/startup/s-3.jpg" alt="">
+                                <img src="/images/s-3.jpg" alt="">
                                 <div class="py-4">
                                     <h3>
                                         <a href="">This is a awesome title</a>
@@ -779,7 +779,7 @@
 
 
 <section id="team"
-         style="background:#ecf5fd url(assets/img/startup/bg-2.png) no-repeat;background-position: center center;">
+         style="background:#ecf5fd url(/images/bg-2.png) no-repeat;background-position: center center;">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
@@ -792,7 +792,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="assets/img/person/1_1.jpg" alt="">
+                        <img class="w-100" src="/images/1_1.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -824,7 +824,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="assets/img/person/2.jpg" alt="">
+                        <img class="w-100" src="/images/2.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -856,7 +856,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="assets/img/person/3.jpg" alt="">
+                        <img class="w-100" src="/images/3.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -888,7 +888,7 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="assets/img/person/4.jpg" alt="">
+                        <img class="w-100" src="/images/4.jpg" alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -965,7 +965,7 @@
 
 
 <section id="reviews"
-         style="background:#0081ff url(assets/img/startup/bg-3.png) no-repeat;background-position: center center;">
+         style="background:#0081ff url(/images/bg-3.png) no-repeat;background-position: center center;">
     <div class="container">
 
         <div class="row">
@@ -982,7 +982,7 @@
              data-slick-margin="30">
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="assets/img/person/1.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100" src="/images/1.jpg" alt="">
                 <h4>
                     Kenelia Deshmukh
                 </h4>
@@ -996,7 +996,7 @@
             </div>
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="assets/img/person/2.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100" src="/images/2.jpg" alt="">
                 <h4>
                     Dorian Black
                 </h4>
@@ -1010,7 +1010,7 @@
             </div>
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="assets/img/person/3.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100" src="/images/3.jpg" alt="">
                 <h4>
                     David Case
                 </h4>
@@ -1032,19 +1032,19 @@
         <div class="row">
             <div class="col-12 d-md-flex justify-content-between text-center">
                 <div class="p-3">
-                    <img src="assets/img/partner/micosoft.png" alt="">
+                    <img src="/images/micosoft.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="assets/img/partner/envato.png" alt="">
+                    <img src="/images/envato.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="assets/img/partner/dribbble.png" alt="">
+                    <img src="/images/dribbble.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="assets/img/partner/google.png" alt="">
+                    <img src="/images/google.png" alt="">
                 </div>
                 <div class="p-3">
-                    <img src="assets/img/partner/micosoft.png" alt="">
+                    <img src="/images/micosoft.png" alt="">
                 </div>
             </div>
         </div> <!-- END row-->
@@ -1066,7 +1066,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="assets/img/svg/plane-up.svg" class="u-h-90" alt="">
+                    <img src="/images/plane-up.svg" class="u-h-90" alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Startup
                     </h4>
@@ -1089,7 +1089,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="assets/img/svg/phone-book.svg" class="u-h-90" alt="">
+                    <img src="/images/phone-book.svg" class="u-h-90" alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Professional
                     </h4>
@@ -1112,7 +1112,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="assets/img/svg/dollar-bag.svg" class="u-h-90" alt="">
+                    <img src="/images/dollar-bag.svg" class="u-h-90" alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Business
                     </h4>
@@ -1154,7 +1154,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="card border-0 box-shadow-v3 u-h-100p">
-                    <img src="assets/img/blog/1.jpg" alt="">
+                    <img src="/images/blog/1.jpg" alt="">
                     <div class="u-p-30">
                         <h4>Contrast and Similarity in Design</h4>
                         <p class="d-flex text-muted">
@@ -1171,7 +1171,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="card border-0 box-shadow-v3 u-h-100p">
-                    <img src="assets/img/blog/3.jpg" alt="">
+                    <img src="/images/blog/3.jpg" alt="">
                     <div class="u-p-30">
                         <h4>
                             Hyper conv in 2018
@@ -1194,7 +1194,7 @@
 
             <div class="col-md-4 mt-4">
                 <div class="card border-0 box-shadow-v3 u-h-100p">
-                    <img src="assets/img/blog/2.jpg" alt="">
+                    <img src="/images/blog/2.jpg" alt="">
                     <div class="u-p-30">
                         <h4>
                             Awesome design trand in clean design
@@ -1219,7 +1219,7 @@
 
 
 <section id="contact"
-         style="background:#0081ff url(assets/img/startup/bg-4.png) no-repeat; background-position: center center;">
+         style="background:#0081ff url(/images/bg-4.png) no-repeat; background-position: center center;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -1260,7 +1260,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <img src="assets/img/logo-inverse.png" alt="">
+                    PingDevs
                     <p class="u-my-40">
                         Nam liber tempor cum soluta nobis eleifend they option congue is nihil
                         imper per tem por legere is me velit doming vulputate.
