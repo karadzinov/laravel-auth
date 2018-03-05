@@ -7,8 +7,6 @@
     <meta name="description" content="A complete development solution for any StartUp">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Favicon-->
-    <link rel="icon" href="assets/img/favicon/144x144.png">
 
     <!-- Title-->
     <title>A complete development solution for any startup</title>
@@ -17,9 +15,9 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
 
     <!--Icon fonts-->
-    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/style.css">
-    <link rel="stylesheet" href="{{ env('APP_URL') }}/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/main.css">
+    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/style.css">
+    <link rel="stylesheet" href="{{ env('IMG_URL') }}/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/main.css">
 
     <!-- Stylesheet-->
     <!--
@@ -33,8 +31,8 @@
       <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css">
       <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css">-->
 
-    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/bundle.css">
-    <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/vendor/custom.css">
+    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/bundle.css">
+    <link rel="stylesheet" href="{{ env('IMG_URL') }}/assets/vendor/custom.css">
 
 </head>
 
@@ -337,7 +335,7 @@
                     <div class="tab-pane fade show active" id="tab1_1">
                         <div class="row u-my-70 align-items-center">
                             <div class="col-md-6 mb-5">
-                                <img src="/images/s-2.png" alt="">
+                                <img src="{{ env('IMG_URL') }}/images/s-2.png" alt="">
                             </div> <!-- END col-md-6 -->
                             <div class="col-md-6">
                                 <h2 class="mb-4">
@@ -430,7 +428,7 @@
 
 
 <section class="u-py-80"
-         style="background:#273f5b url(/images/bg-1.png) no-repeat;background-position: center center;">
+         style="background:#273f5b url({{ env('IMG_URL') }}/images/bg-1.png) no-repeat;background-position: center center;">
     <div class="container">
         <div class="row text-center">
 
@@ -982,7 +980,7 @@
              data-slick-margin="30">
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="/images/1.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100" src="{{ env('IMG_URL') }}/images/1.jpg" alt="">
                 <h4>
                     Kenelia Deshmukh
                 </h4>
@@ -996,7 +994,7 @@
             </div>
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="/images/2.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100" src="{{ env('IMG_URL') }}/images/2.jpg" alt="">
                 <h4>
                     Dorian Black
                 </h4>
@@ -1010,7 +1008,7 @@
             </div>
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="/images/3.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100" src="{{ env('IMG_URL') }}/images/3.jpg" alt="">
                 <h4>
                     David Case
                 </h4>
@@ -1362,8 +1360,8 @@
 		<script src="assets/js/smoothscroll.js"></script>
 -->
 
-<script src="{{ env('APP_URL') }}/js/bundle.js"></script>
-<script src="{{ env('APP_URL') }}/js/fury.js"></script>
+<script src="{{ env('IMG_URL') }}/js/bundle.js"></script>
+<script src="{{ env('IMG_URL') }}/js/fury.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
