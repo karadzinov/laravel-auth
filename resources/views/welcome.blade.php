@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
 
     {{-- Styles --}}
-    <link href="{{ mix('/css/all.css') }}" rel="stylesheet">
+    <link href="{{ env('IMG_URL') }}{{ mix('/css/all.css') }}" rel="stylesheet">
 
 </head>
 
@@ -1344,7 +1344,7 @@
 -->
 
 {{-- Scripts --}}
-<script src="{{ mix('/js/all.js') }}"></script>
+<script src="{{ env('IMG_URL') }}{{ mix('/js/all.js') }}"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
