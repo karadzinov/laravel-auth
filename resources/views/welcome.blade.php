@@ -78,16 +78,7 @@
 
 
 
-<section class="u-py-100 u-h-100vh u-flex-center" style="
-	background: #8B3AC6;
-	background-image: -webkit-linear-gradient(left, #8B3AC6 0%, #4D3399 100%);
-	background-image: -o-linear-gradient(left, #8B3AC6 0%, #4D3399 100%);
-	background-image: -webkit-gradient(linear, left top, right top, from(#8B3AC6), to(#4D3399));
-	background-image: linear-gradient(to right, #8B3AC6 0%, #4D3399 100%);
-	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8B3AC6', endColorstr='#FF4D3399', GradientType=1);
-
- ">
+<section class="u-py-100 u-h-100vh u-flex-center bg-red">
     <div class="container">
         <div class="row">
             <div class="col-12 u-mt-80 text-center">
