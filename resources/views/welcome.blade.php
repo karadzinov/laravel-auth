@@ -977,8 +977,7 @@
                     Excellent Support
                 </h3>
                 <p>
-                    Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend
-                    legere me doming.
+                    Your startup is so important to us, we will listen carefully and provide best solutions for your needs.
                 </p>
             </div>  <!-- END col-md-4 -->
 
@@ -988,8 +987,7 @@
                     Awesome Team
                 </h3>
                 <p>
-                    Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend
-                    legere me doming.
+                    Something here..
                 </p>
             </div>  <!-- END col-md-4 -->
 
@@ -999,8 +997,7 @@
                     Affordable Price
                 </h3>
                 <p>
-                    Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend
-                    legere me doming.
+                    Underdevelopment
                 </p>
             </div>  <!-- END col-md-4 -->
 
@@ -1210,7 +1207,7 @@
                             <span><i class="icon icon-Eye mr-1 ml-3"></i> 468 views</span>
                         </p>
                         <p>
-                            Nam liber tempor cum soluta nobis eleif end option congue is nihil
+                            Change text here..
                         </p>
                         <a href="" class="btn btn-primary btn-rounded my-3">Read More</a>
                     </div>
@@ -1229,8 +1226,7 @@
                             <span><i class="icon icon-Eye mr-1 ml-3"></i> 468 views</span>
                         </p>
                         <p>
-                            Nam liber tempor cum soluta nobis eleif end option congue is nihil imper per tem por legere
-                            me
+                            Something different
                         </p>
                         <a href="" class="btn btn-primary btn-rounded my-3">
                             Read More
@@ -1252,7 +1248,7 @@
                             <span><i class="icon icon-Eye mr-1 ml-3"></i> 468 views</span>
                         </p>
                         <p>
-                            Nam liber tempor cum soluta nobis eleif end option congue is nihil
+                            Bu!
                         </p>
                         <a href="" class="btn btn-primary btn-rounded my-3">
                             Read More
@@ -1310,8 +1306,7 @@
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     PingDevs
                     <p class="u-my-40">
-                        Nam liber tempor cum soluta nobis eleifend they option congue is nihil
-                        imper per tem por legere is me velit doming vulputate.
+                        Another text that needs to be replaced.
                     </p>
                     <form class="form-inline">
                         <div class="input-group box-shadow-v1 u-rounded-50 bg-white u-of-hidden">
@@ -1342,14 +1337,14 @@
                     <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
                     <ul class="list-unstyled">
                         <li class="mb-2">
-                            <span class="icon icon-Phone2 text-primary mr-2"></span> 008. 567. 890. 634
+                            <span class="icon icon-Phone2 text-primary mr-2"></span> 389. 71. 213. 980
                         </li>
                         <li class="mb-2">
                             <span class="icon icon-Mail text-primary mr-2"></span> <a
                                     href="mailto:support@pingdevs.com">support@pingdevs.com</a>
                         </li>
                         <li class="mb-2">
-                            <span class="icon icon-Pointer text-primary mr-2"></span> Melbourne, Australia
+                            <span class="icon icon-Pointer text-primary mr-2"></span> Skopje, Macedonia
                         </li>
                     </ul>
                     <ul class="list-inline social social-rounded social-white mt-4">
