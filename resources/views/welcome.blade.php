@@ -64,7 +64,7 @@
         <nav class="navbar navbar-expand-lg">
 
             <a class="navbar-brand" href="/">
-               PingDevs
+                PingDevs
             </a>
 
             <button class="navbar-toggler p-0" data-toggle="collapse" data-target="#navbarNav">
@@ -167,10 +167,18 @@
                 </h2>
                 <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
                 <p>
-                    Nam liber tempor cum soluta nobis eleifend option congue is nihil imper is per tem por legere me
-                    that doming vulputate velit esse molestie possim. wisi enim ad placerat facer possim assum minim
-                    there veniam, nostrud exerci tation ullamcorper quis nostrud exerci tation ullamcorper. Nam is
-                    tempor cum soluta nobis eleifend option congue is nihil imper.
+                    PingDevs is a well known and established company, oriented towards software and web
+                    development supporting and maintaining its own hosting services. We are a company based
+                    in Skopje – Macedonia, developing and designing state of the art software solutions ranging
+                    from corporate websites to complex platform and content management systems and
+                    delivering the best mobile applications using cutting edge technologies. As a company we
+                    strive to fulfill all of the clients’ needs, assist through the whole process of product or
+                    project builds.<br/>
+                    We employ only the best individuals who work mainly in two areas of software
+                    development – digital products and professional services. Regarding this proposal, we’ll
+                    keep the focus on the professional services which include but are not limited to: website
+                    hosting, website maintenance, quality assurance, research, SEO, feature development,
+                    technical support, consulting, business planning...etc.
                 </p>
                 <a href="" class="btn btn-primary btn-rounded mt-4">More About Us</a>
             </div>
@@ -295,19 +303,19 @@
                     <li class="nav-item mx-2">
                         <a class="nav-link active p-4" data-toggle="tab" href="#tab1_1" role="tab">
                             <span class="u-fs-md-30 d-block mb-1">01</span>
-                            Join
+                            Website Maintenance
                         </a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link p-4" data-toggle="tab" href="#tab1_2" role="tab">
                             <span class="u-fs-md-30 d-block mb-1">02</span>
-                            Login
+                            Ad Hoc Development
                         </a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link p-4" data-toggle="tab" href="#tab1_3" role="tab">
                             <span class="u-fs-md-30 d-block mb-1">03</span>
-                            Cracking
+                            Application Development
                         </a>
                     </li>
                 </ul>
@@ -325,22 +333,44 @@
                                     Present Your Startup With Style And Easy
                                 </h2>
                                 <p>
-                                    Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por
-                                    legere me that doming vulputate velit esse molestie possim wisi enim ad placerat
-                                    facer possim assum minim there veniam, nostrud exerci tation ullamcorper quis
-                                    nostrud.
-                                </p>
-                                <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30">
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Professional and easy-to-use
-                                        software
+                                    Server maintenance involves keeping an already developed website updated and running
+                                    so
+                                    that it can can operate smoothly and properly 24/7. All the work is conducted by an
+                                    experienced developer and system administrator who will work to ensure that the
+                                    website
+                                    runs properly via regularly monitoring performance and updating the code in a secure
+                                    manner. The work required to maintain the website to run smoothly and issue free
+                                    usually
+                                    includes:
+                                    <br/>
+                                    Following the regular server maintenance and server updates and scheduling code
+                                    updates based on agreed schedule.
+                                <ul>
+                                    <li> Checking the website with all of the pages is available and error free</li>
+                                    <li> Updating the code</li>
+                                    <li> Fixing existing bugs</li>
+                                    <li> Applying secure protocols</li>
+                                    <li> Regularly checking for application updates</li>
+                                    <li> Keeping a backup on a local server in case of unexpected interruption of the
+                                        host’s work
                                     </li>
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Setup and installations takes ten
-                                        minutes
+                                    <li> Protecting the database for the running applications, ensuring it is clean and
+                                        entries are not redundant
                                     </li>
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Perfect for any device with
-                                        pixel-perfect design
+                                    <li> Ensuring all procedures are followed when a new user needs to get access to the
+                                        website
                                     </li>
+                                    <li> Changing passwords on monthly basis in order to keep the website safe and
+                                        preemptively protected
+                                    </li>
+                                    <li> Cleaning up unnecessary files</li>
+                                    <li> Adding content to the website</li>
+                                    <li> Editing existing content</li>
+                                    <li> Optimizing the website for search engines</li>
+                                    <li> Providing reports and guidelines for future work</li>
+                                    <li> Reporting crashes or attacks to the Account Manager 24/7</li>
                                 </ul>
+                                </p>
                             </div> <!-- END col-md-6 -->
                         </div> <!-- END row-->
                     </div> <!-- END tab-pane-->
@@ -354,21 +384,17 @@
                                     We Provide Three Steps Business Solutions
                                 </h2>
                                 <p>
-                                    Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por
-                                    legere me that doming vulputate velit esse molestie possim wisi enim ad placerat
-                                    facer possim assum minim there veniam, nostrud exerci tation ullamcorper quis
-                                    nostrud.
+                                    Ad Hoc development includes all the work that can not be completed within the dedicated 8
+                                    hours per day and can be scheduled based on mutual agreement between MyHost and the
+                                    client. This includes:
                                 </p>
                                 <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30">
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Professional and easy-to-use
-                                        software
-                                    </li>
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Setup and installations takes ten
-                                        minutes
-                                    </li>
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Perfect for any device with
-                                        pixel-perfect design
-                                    </li>
+                                    <li> Adding new features</li>
+                                    <li> Redesign</li>
+                                    <li> Partially changing the logic and architecture of the website</li>
+                                    <li> Adding new page or content type</li>
+                                    <li> QA - testing new features before releasing them to the live environment</li>
+                                    <li> Providing reports based on client’s request related to content</li>
                                 </ul>
                             </div> <!-- END col-md-6 -->
                         </div> <!-- END row-->
@@ -383,22 +409,23 @@
                                     It's as easy as 1 2 3 to get start
                                 </h2>
                                 <p>
-                                    Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por
-                                    legere me that doming vulputate velit esse molestie possim wisi enim ad placerat
-                                    facer possim assum minim there veniam, nostrud exerci tation ullamcorper quis
-                                    nostrud.
-                                </p>
-                                <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30">
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Professional and easy-to-use
-                                        software
-                                    </li>
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Setup and installations takes ten
-                                        minutes
-                                    </li>
-                                    <li><i class="fa fa-check text-primary mr-2"></i>Perfect for any device with
-                                        pixel-perfect design
-                                    </li>
+                                    Application development includes all possible request variations ‘from scratch’
+                                    development. The work needed to deliver a whole project includes:
+                                <ul>
+                                    <li> Estimating client’s needs</li>
+                                    <li> Designing the application including wireframing</li>
+                                    <li> Competitor analysis</li>
+                                    <li> Best practices research</li>
+                                    <li> Specification writing</li>
+                                    <li> Development</li>
+                                    <li> Full quality assurance</li>
+                                    <li> Providing legal agreements and support</li>
                                 </ul>
+
+                                    MyHost can provide development of iOS, Android and mobile applications in addition to
+                                    web page development, with high standards in project management, QA and testing before
+                                    delivery of final product.
+                                </p>
                             </div> <!-- END col-md-6 -->
                         </div> <!-- END row-->
                     </div> <!-- END tab-pane-->
@@ -773,7 +800,8 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/1_1.jpg" alt="">
+                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/1_1.jpg"
+                             alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -805,7 +833,8 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/2.jpg" alt="">
+                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/2.jpg"
+                             alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -837,7 +866,8 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/3.jpg" alt="">
+                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/3.jpg"
+                             alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -869,7 +899,8 @@
             <div class="col-lg-3 col-md-6 mt-4">
                 <div class="card text-center show-onHover-parent">
                     <div class="u-pos-rel">
-                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/4.jpg" alt="">
+                        <img class="w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/4.jpg"
+                             alt="">
                         <div class="show-onHover u-pos-abs-center u-w-100p">
                             <ul class="list-inline social social-white social-sm mt-4">
                                 <li class="list-inline-item">
@@ -963,7 +994,8 @@
              data-slick-margin="30">
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/1.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100"
+                     src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/1.jpg" alt="">
                 <h4>
                     Kenelia Deshmukh
                 </h4>
@@ -977,7 +1009,8 @@
             </div>
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/2.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100"
+                     src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/2.jpg" alt="">
                 <h4>
                     Dorian Black
                 </h4>
@@ -991,7 +1024,8 @@
             </div>
 
             <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                <img class="rounded-circle mx-auto mb-4 u-w-100" src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/3.jpg" alt="">
+                <img class="rounded-circle mx-auto mb-4 u-w-100"
+                     src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/3.jpg" alt="">
                 <h4>
                     David Case
                 </h4>
@@ -1047,7 +1081,8 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/plane-up.svg" class="u-h-90" alt="">
+                    <img src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/plane-up.svg" class="u-h-90"
+                         alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Startup
                     </h4>
@@ -1070,7 +1105,8 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/phone-book.svg" class="u-h-90" alt="">
+                    <img src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/phone-book.svg" class="u-h-90"
+                         alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Professional
                     </h4>
@@ -1093,7 +1129,8 @@
 
             <div class="col-md-4 mt-4">
                 <div class="bg-white box-shadow-v2 rounded py-5">
-                    <img src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/dollar-bag.svg" class="u-h-90" alt="">
+                    <img src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/dollar-bag.svg" class="u-h-90"
+                         alt="">
                     <h4 class="u-mb-35 u-mt-15">
                         Business
                     </h4>
@@ -1350,7 +1387,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-115084310-1');
