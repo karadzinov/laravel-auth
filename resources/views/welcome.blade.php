@@ -78,7 +78,7 @@
 
 
 
-<section class="u-py-100 u-h-100vh u-flex-center bg-red">
+<section class="u-py-100 u-h-100vh u-flex-center bg-blue">
     <div class="container">
         <div class="row">
             <div class="col-12 u-mt-80 text-center">
