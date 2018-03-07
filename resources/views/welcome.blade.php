@@ -212,7 +212,7 @@
                             Web Solutinos
                         </h4>
                         <p>
-                            Team dedicated for your needs.
+                            If you're already an entrepreneur, think about how you can leverage these technologies to reach your target audience in new ways.
                         </p>
                     </div>
                 </div>
@@ -241,8 +241,7 @@
                             Dedicated Support
                         </h4>
                         <p>
-                            Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por
-                            legere.
+                            Team dedicated for your needs.
                         </p>
                     </div>
                 </div>
@@ -256,8 +255,7 @@
                             Business Consulting
                         </h4>
                         <p>
-                            Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por
-                            legere.
+                            We have professionals who provides professional or expert advice in a particular area such as security, management, accountancy, law, human resources, marketing, finance, engineering, science or any of many other specialized fields.
                         </p>
                     </div>
                 </div>
@@ -271,8 +269,7 @@
                             Progress Across Projects
                         </h4>
                         <p>
-                            Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por
-                            legere.
+                            Monitoring and tracking the progress of your schedule easy!
                         </p>
                     </div>
                 </div>
