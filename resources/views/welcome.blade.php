@@ -175,10 +175,7 @@
                     strive to fulfill all of the clients’ needs, assist through the whole process of product or
                     project builds.<br/>
                     We employ only the best individuals who work mainly in two areas of software
-                    development – digital products and professional services. Regarding this proposal, we’ll
-                    keep the focus on the professional services which include but are not limited to: website
-                    hosting, website maintenance, quality assurance, research, SEO, feature development,
-                    technical support, consulting, business planning...etc.
+                    development – digital products and professional services.
                 </p>
                 <a href="" class="btn btn-primary btn-rounded mt-4">More About Us</a>
             </div>
