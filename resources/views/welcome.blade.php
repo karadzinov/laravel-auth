@@ -198,8 +198,8 @@
                             Digital Branding
                         </h4>
                         <p>
-                            Brand management technique that uses a combination of internet branding and digital marketing to develop a brand over a range of digital venues, including internet-based relationships, device-based applications or media content.
-                        </p>
+                            Photos, videos etc..
+                         </p>
                     </div>
                 </div>
             </div> <!-- END col-lg-4 col-md-6-->
@@ -255,7 +255,7 @@
                             Business Consulting
                         </h4>
                         <p>
-                            We have professionals who provides professional or expert advice in a particular area such as security, management, accountancy, law, human resources, marketing, finance, engineering, science or any of many other specialized fields.
+                            Something here...
                         </p>
                     </div>
                 </div>
