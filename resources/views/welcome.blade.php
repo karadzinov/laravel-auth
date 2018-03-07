@@ -106,56 +106,40 @@
 </header> <!-- END header-inverse -->
 
 
-<section class="u-py-md-250 u-flex-center"
-         style="background:#ECF5FE url(http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/hero-banner.png) no-repeat; background-size:cover; background-position: top center;">
+
+
+<section class="u-py-100 u-h-100vh u-flex-center" style="
+	background: #8B3AC6;
+	background-image: -webkit-linear-gradient(left, #8B3AC6 0%, #4D3399 100%);
+	background-image: -o-linear-gradient(left, #8B3AC6 0%, #4D3399 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#8B3AC6), to(#4D3399));
+	background-image: linear-gradient(to right, #8B3AC6 0%, #4D3399 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8B3AC6', endColorstr='#FF4D3399', GradientType=1);
+
+ ">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-7 mb-5 mb-lg-0">
-                <h1 class="display-4 u-fw-600">
-                    <span class="text-primary">Our Startup</span> Is Absolutely Awesome!!
+        <div class="row">
+            <div class="col-12 u-mt-80 text-center">
+                <h1 class="display-4 u-fw-600 text-white u-mb-40">
+                    PingDevs are good for <span class="text-yellow" data-type="App, SEO, Starter, software, Product landing"></span>
+                    <span class="typed-curcor text-yellow">|</span>
                 </h1>
-                <p class="u-fs-22 u-lh-1_8 my-4">
-                    The best template for your startup to showcase and acquire new customers all around the world!
+                <p class="u-fs-22 text-white u-lh-1_8 u-mb-40">
+                    Start working with an SEO company that can provide everything you need to generate awareness, drive traffic, connect with customers, and increase sales.
                 </p>
-                <a href="" class="btn btn btn-rounded btn-primary  u-w-170 u-mt-15">
+                <a href="" class="btn btn btn-rounded btn-green  px-md-5">
                     Get Started
                 </a>
-            </div> <!-- END col-lg-7-->
-
-            <div class="col-lg-5">
-                <div class="card box-shadow-v2 bg-white u-of-hidden text-center">
-                    <h2 class="bg-primary m-0 py-3 text-white">Sign Up And Get Free Update</h2>
-                    <form action="" method="POST" class="p-4 p-md-5">
-
-                        <div class="input-group u-rounded-50 border u-of-hidden u-mb-20">
-                            <div class="input-group-addon bg-white border-0 pl-4 pr-0">
-                                <span class="icon icon-User text-primary"></span>
-                            </div>
-                            <input type="text" class="form-control border-0 p-3" placeholder="Your fullname">
-                        </div>
-
-                        <div class="input-group u-rounded-50 border u-of-hidden u-mb-20">
-                            <div class="input-group-addon bg-white border-0 pl-4 pr-0">
-                                <span class="icon icon-Mail text-primary"></span>
-                            </div>
-                            <input type="text" class="form-control border-0 p-3" placeholder="Your email">
-                        </div>
-
-                        <div class="input-group u-rounded-50 border u-of-hidden u-mb-20">
-                            <div class="input-group-addon bg-white border-0 pl-4 pr-0">
-                                <span class="icon icon-ClosedLock text-primary"></span>
-                            </div>
-                            <input type="password" class="form-control border-0 p-3" placeholder="Password">
-                        </div>
-                        <button class="btn btn-primary btn-rounded">
-                            Get Started
-                        </button>
-                    </form>
-                </div>
-            </div> <!-- END col-lg-5-->
+                <a href="" class="btn btn btn-rounded btn-white ml-3 px-md-5">
+                    Learn more
+                </a>
+            </div> <!-- END col-lg-6-->
         </div> <!-- END row-->
     </div> <!-- END container-->
 </section> <!-- END intro-hero-->
+
+
 
 
 <section id="about" class="pb-0">
