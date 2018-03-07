@@ -198,8 +198,7 @@
                             Digital Branding
                         </h4>
                         <p>
-                            Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por
-                            legere.
+                            Brand management technique that uses a combination of internet branding and digital marketing to develop a brand over a range of digital venues, including internet-based relationships, device-based applications or media content.
                         </p>
                     </div>
                 </div>
@@ -213,8 +212,7 @@
                             Web Solutinos
                         </h4>
                         <p>
-                            Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por
-                            legere.
+                            Team dedicated for your needs.
                         </p>
                     </div>
                 </div>
@@ -228,8 +226,8 @@
                             Financial Advice
                         </h4>
                         <p>
-                            Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por
-                            legere.
+                            Our project manager will provide you weekly report that will include all working tasks and
+                            feature tasks that needs to be competed.
                         </p>
                     </div>
                 </div>
