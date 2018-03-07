@@ -1036,8 +1036,7 @@
                     Creative Director
                 </p>
                 <p>
-                    Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por legere me doming
-                    vulputate velit esse molestie possim. Ut wisi enim ad placerat facer.
+                    Your startup is so important to us, we will listen carefully and provide best solutions for your needs.
                 </p>
             </div>
 
@@ -1051,8 +1050,7 @@
                     Manager
                 </p>
                 <p>
-                    Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por legere me doming
-                    vulputate velit esse molestie possim. Ut wisi enim ad placerat facer.
+                    Your startup is so important to us, we will listen carefully and provide best solutions for your needs.
                 </p>
             </div>
 
@@ -1066,8 +1064,7 @@
                     Designer
                 </p>
                 <p>
-                    Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por legere me doming
-                    vulputate velit esse molestie possim. Ut wisi enim ad placerat facer.
+                    Your startup is so important to us, we will listen carefully and provide best solutions for your needs.
                 </p>
             </div>
         </div> <!-- END carosel-->
