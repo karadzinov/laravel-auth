@@ -58,7 +58,7 @@ class ping extends Command
         $exec_uptime = preg_split("/[\s]+/", trim(shell_exec('uptime')));
         $uptime = $exec_uptime[2] . ' Days';
 
-        $data = ["cpu" => $cpu, "mem" => $mem, "uptime" => $uptime, "browser" => $browser, "ip" => $ip, "server" => $server];
+        $data = ["cpu" => $cpu, "mem" => $mem, "uptime" => $uptime, "browser" => $browser, "ip" => $ip];
         dd($data);
 
     }
