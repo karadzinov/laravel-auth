@@ -794,20 +794,20 @@
                     related with agreed requirements before. Each new option or feature would be extra, and
                     would be not included as free by agreed price. The same could also extended work period.
                     Product would be upgradable, easy to manage with future possibility for opening API.
-                    <br/>
+                </p>
+                <p>
                     Our work is based on strong communication between clients and developers, for that
                     reason we are using Slack (ref. http://slack.com) - professional working platform for
                     communication. Development is followed by GitHub (ref. https://github.com) or BitBucket
                     (ref. https://bitbucket.org) as you prefer where we deploy our source code on fly.
-                    <br/>
+                </p>
+                <p>
                     As for task management system, we prefer Asana (ref. https://asana.com) but we are also
                     comfortable of using any of teams tracking workflow solutions like jira.com,
                     meistertask.com etc... As for example tasks are connected with Slack as developer commits
                     daily work we are tracking daily job, review the code, return for necessary changes or
                     deploy it to staging
-                    <server class=""></server>
                 </p>
-                <a href="" class="btn btn-primary btn-rounded mt-4">More About Us</a>
             </div>
             <div class="col-12 u-mt-70 text-center">
                 <img src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}/images/s-1.png" alt="">
