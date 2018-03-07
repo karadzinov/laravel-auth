@@ -4,12 +4,12 @@
     <!--Meta-->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="A complete development solution for any StartUp">
+    <meta name="description" content="A complete development solution for your StartUp">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <!-- Title-->
-    <title>A complete development solution for any startup</title>
+    <title>A complete development solution for your startup</title>
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
