@@ -26,40 +26,8 @@
 <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
     to improve your experience.</p>
 <![endif]-->
-<header class="header-top py-3">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 mb-3 mb-md-0 text-center text-md-left">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item mr-3">
-                        <span class="icon icon-Phone2 text-primary mr-1"></span> 008. 567. 890. 634
-                    </li>
-                    <li class="list-inline-item">
-                        <span class="icon icon-Mail text-primary mr-1"></span> <a href="mailto:support@echotheme.com">support@pingdevs.com</a>
-                    </li>
-                </ul> <!-- END list-inline-->
-            </div> <!-- END col-md-6 -->
-            <div class="col-md-6 mb-3 mb-md-0">
-                <ul class="list-inline social social-rounded social-default social-sm mb-0 text-center text-md-right">
-                    <li class="list-inline-item">
-                        <a href=""><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href=""><i class="fa fa-google-plus"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href=""><i class="fa fa-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div> <!-- END col-md-6 -->
-        </div> <!-- END row-->
-    </div> <!-- END container-->
-</header> <!-- END header-top-->
 
-<header class="header header-shadow header-shrink sticky-top bg-gray-v2">
+<header class="header header-shrink header-inverse fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
 
@@ -103,7 +71,9 @@
 
         </nav>
     </div> <!-- END container-->
-</header> <!-- END header-inverse -->
+</header> <!-- END header -->
+
+
 
 
 
