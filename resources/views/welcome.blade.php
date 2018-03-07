@@ -212,7 +212,7 @@
                             Web Solutinos
                         </h4>
                         <p>
-                            If you're already an entrepreneur, think about how you can leverage these technologies to reach your target audience in new ways.
+                            Great solutions.
                         </p>
                     </div>
                 </div>
