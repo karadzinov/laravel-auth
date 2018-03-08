@@ -31,7 +31,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="/" style="color: white;">
                 PingDevs
             </a>
 
@@ -74,28 +74,230 @@
 </header> <!-- END header -->
 
 
+<style>
+    .terminal {
+        width: 100%;
+        min-height: 450px;
+        margin: 0 auto 30px;
+        background-size: 100%;
+    }
+
+    @media screen and (max-width: 1500px) {
+        .terminal {
+            background-size: auto;
+        }
+    }
+
+    .terminal .h1 {
+        margin: 10px 0 20px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        text-shadow: #000 0px 2px 4px;
+    }
+
+    .head-wrap {
+        margin: 30px auto 30px;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+        text-align: center;
+    }
+
+    .tagline {
+        display: block;
+        padding: 20px 0 0;
+        opacity: 0;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: #000 0px 1px 3px;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+    }
+
+    .shift-text {
+        margin: 80px auto 110px;
+    }
+
+    .shift-text .text-body {
+        height: 120px;
+    }
+
+    .shift-text .tagline {
+        opacity: 0.9;
+    }
+
+    /* text editor styles */
+    .text-editor-wrap {
+        display: block;
+        margin: auto;
+        max-width: 800px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+        clear: both;
+        overflow: hidden;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+    }
+
+    .title-bar {
+        padding: 5px 0;
+        font-size: 0.75em;
+        text-align: center;
+        text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+        background-color: #f8f8f8;
+        background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+        background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
+        background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
+        box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+        border-bottom: #6a6a6a 1px solid;
+    }
+
+    .text-body {
+        height: 350px;
+        background-color: rgba(0, 0, 0, 0.85);
+        padding: 10px;
+        color: #f0f0f0;
+        text-shadow: #000 0px 1px 0px;
+        line-height: 1.40em;
+        font-weight: 500;
+        text-align: left;
+        overflow: hidden;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+    }
+
+    hr {
+        margin: 20px 0;
+        border: 0;
+        border-bottom: #fff 1px solid;
+        border-top: #f0f0f0 1px solid;
+    }
+
+    code {
+        margin: 0 auto 20px;
+        padding: 10px 20px !important;
+        color: #444;
+        font-family: "Consolas", "Courier New", "Courier";
+        font-weight: 500;
+        background: #fff !important;
+        border: #EEE 1px solid;
+        border-radius: 10px;
+        overflow: auto;
+    }
+
+    .typed-cursor {
+        opacity: 1;
+        font-weight: 100;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        -ms-animation: blink 0.7s infinite;
+        -o-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-ms-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-o-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 
 
-
-
-<section class="u-py-100 u-h-100vh u-flex-center bg-blue">
+</style>
+<section class="u-pt-md-150 pb-0 u-h-100vh bg-purple">
     <div class="container">
-        <div class="row">
-            <div class="col-12 u-mt-80 text-center">
-                <h1 class="display-4 u-fw-600 text-white u-mb-40">
-                    PingDevs are good for <span class="text-yellow" data-type="App, SEO, Starter, software, Product landing"></span>
-                    <span class="typed-curcor text-yellow">|</span>
+        <div class="row text-center">
+
+            <div class="col-lg-10 mx-auto u-pt-80">
+                <h1 class="display-4 u-fw-600 text-white">
+                    PingDevs
                 </h1>
-                <p class="u-fs-22 text-white u-lh-1_8 u-mb-40">
-                    Start working with an SEO company that can provide everything you need to generate awareness, drive traffic, connect with customers, and increase sales.
-                </p>
-                <a href="" class="btn btn btn-rounded btn-green  px-md-5">
-                    Get Started
-                </a>
-                <a href="" class="btn btn btn-rounded btn-white ml-3 px-md-5">
-                    Learn more
-                </a>
-            </div> <!-- END col-lg-6-->
+
+            </div>
+            <div class="col-lg-9 mx-auto mt-5">
+                <div class="terminal">
+                    <div class="head-wrap">
+                        <div class="text-editor-wrap">
+                            <div class="title-bar"><span class="title">pingdevs.com &mdash; bash &mdash; 80x<span
+                                            class="terminal-height">25</span></span></div>
+                            <div class="text-body">
+
+                                <p>Welcome Visitor... </p>
+                                ping@devs [~]: $ <span id="typed">  <span class="text-purple" data-type="ping developers, whois pingdevs.com"></span></span>
+
+
+                            </div>
+                        </div>
+                        <span class="tagline">Type your heart out, with Typed.js</span>
+                    </div>
+                </div>
+
+            </div>
         </div> <!-- END row-->
     </div> <!-- END container-->
 </section> <!-- END intro-hero-->
