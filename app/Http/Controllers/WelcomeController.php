@@ -11,6 +11,6 @@ class WelcomeController extends Controller
      */
     public function welcome()
     {
-        return view('local');
+        return view('welcome');
     }
 }
