@@ -1,4 +1,5 @@
 const { mix } = require('laravel-mix');
+const { mixapp } = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -25,3 +26,7 @@ mix.scripts([
     'public/js/bundle.js',
     'public/js/fury.js'
 ], 'public/js/all.js');
+
+
+mixapp.js('resources/assets/js/app.js', 'public/js')
+    .sass('resources/assets/sass/app.scss', 'public/css');

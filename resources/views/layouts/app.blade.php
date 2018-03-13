@@ -23,7 +23,7 @@
         @yield('template_linked_fonts')
 
         {{-- Styles --}}
-        <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+        <link href="/css/all.css" rel="stylesheet">
 
         @yield('template_linked_css')
 
@@ -69,7 +69,7 @@
         </div>
 
         {{-- Scripts --}}
-        <script src="{{ mix('/js/app.js') }}"></script>
+        <script src="/js/all.js"></script>
 
         @if(config('settings.googleMapsAPIStatus'))
             {!! HTML::script('//maps.googleapis.com/maps/api/js?key='.env("GOOGLEMAPS_API_KEY").'&libraries=places&dummy=.js', array('type' => 'text/javascript')) !!}

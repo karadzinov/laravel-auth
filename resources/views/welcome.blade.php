@@ -287,13 +287,14 @@
                                             class="terminal-height">25</span></span></div>
                             <div class="text-body">
 
-                                <p>Welcome Visitor... </p>
-                                ping@devs [~]: $ <span id="typed">  <span class="text-purple" data-type="ping developers, whois pingdevs.com"></span></span>
+                                <p>Welcome visitor from <span class="text-purple" id="address"></span>. How are you today?</p>
+                                <p>We can check that the weather is <span class="text-purple" id="weather"></span>. Anyway we are here to help you out.</p>
+
+                                ping@devs [~]: $ <span class="text-purple" data-type="ping developers, whois pingdevs.com"></span>
 
 
                             </div>
                         </div>
-                        <span class="tagline">Type your heart out, with Typed.js</span>
                     </div>
                 </div>
 
@@ -1563,6 +1564,31 @@
 
     gtag('config', 'UA-115084310-1');
 </script>
+
+<script>
+    $.get("http://ipinfo.io", function (response) {
+        $("#address").html(response.city);
+        loadWeather(response.city, ''); //@params location, woeid
+
+    }, "jsonp");
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+<script>
+    function loadWeather(location, woeid) {
+        $.simpleWeather({
+            location: location,
+            woeid: woeid,
+            unit: 'c',
+            success: function (weather) {
+                $("#weather").html(weather.currently);
+            },
+            error: function (error) {
+                $("#weather").html('<p>' + error + '</p>');
+            }
+        });
+    }
+</script>
+
 
 </body>
 </html>
