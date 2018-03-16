@@ -4532,7 +4532,7 @@ html {
 }
 
 @-ms-viewport {
-    width: device-width
+    width:  device-width
 }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -22500,6 +22500,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     background: linear-gradient(102deg, #ef3927 60%, #e74b3c 20%, #e74b3c 20%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    text-shadow: 13px 13px 9px #000;
 }
 
 .text-indigo {
