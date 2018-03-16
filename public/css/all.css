@@ -21876,16 +21876,19 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .main-bg {
     background-image: url('https://habrastorage.org/files/307/6ce/247/3076ce2471b94c1096b0b5bafefecb05.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .main-bg2 {
     background-image: url('https://protiumdesign.com/wp-content/uploads/2017/01/Material-Design-Background.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .main-bg3 {
     background-image: url('http://cdn.coda-craven.org/wp-content/uploads/2017/04/Dark-Material-Design-4K-Wallpaper-2208x1242.jpg');
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
