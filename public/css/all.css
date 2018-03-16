@@ -17416,6 +17416,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
 .navbar-brand {
     position: relative;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
 }
 
 .logo-inverse {
@@ -24060,4 +24062,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .main-text {
     font-family: 'Poiret One', cursive;
     font-weight: 100;
+    background: linear-gradient(135deg, #cee3e6 0, #ffffff 20%, #bdd8b4 100%);
+    -webkit-background-clip: text;
+    text-shadow: 13px 13px 9px #000;
+    -webkit-text-fill-color: transparent;
 }
