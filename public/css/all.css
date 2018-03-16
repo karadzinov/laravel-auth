@@ -21879,6 +21879,22 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     background-attachment: fixed;
 }
 
+main-bg:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-image: url('https://habrastorage.org/files/307/6ce/247/3076ce2471b94c1096b0b5bafefecb05.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 .main-bg2 {
     background-image: url('https://protiumdesign.com/wp-content/uploads/2017/01/Material-Design-Background.jpg');
     background-size: cover;
