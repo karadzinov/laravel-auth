@@ -17578,7 +17578,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .is-scrolling .header-inverse {
-    background: url(https://protiumdesign.com/wp-content/uploads/2017/01/Material-Design-Background.jpg);
+    background: linear-gradient(179deg, #984a4a 0, #e74b3c 27%, #e74b3c 17%)
     opacity: 0.97;
 }
 
@@ -22485,6 +22485,10 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
 .text-yellow {
     color: #FFAD00 !important;
+    background: linear-gradient(135deg, #ffd22a 0, #fa9a00 20%, #ffd22a 100%);
+    -webkit-background-clip: text;
+    text-shadow: 13px 13px 9px #000;
+    -webkit-text-fill-color: transparent;
 }
 
 .text-green {
@@ -22493,6 +22497,9 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
 .text-red {
     color: #F04D42 !important;
+    background: linear-gradient(102deg, #ef3927 60%, #e74b3c 20%, #e74b3c 20%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .text-indigo {
