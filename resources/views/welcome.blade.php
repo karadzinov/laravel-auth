@@ -13,7 +13,7 @@
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
 
     {{-- Styles --}}
     <link href="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}{{ mix('/css/all.css') }}" rel="stylesheet">
