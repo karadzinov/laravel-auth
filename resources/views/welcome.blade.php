@@ -13,6 +13,7 @@
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
     {{-- Styles --}}
     <link href="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}{{ mix('/css/all.css') }}" rel="stylesheet">
@@ -274,8 +275,8 @@
         <div class="row text-center">
 
             <div class="col-lg-10 mx-auto u-pt-80">
-                <h1 class="display-4 u-fw-600 text-white">
-                    PingDevs
+                <h1 class="display-4 text-white main-text">
+                    Get your startup idea up and running
                 </h1>
 
             </div>
