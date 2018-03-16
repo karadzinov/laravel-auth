@@ -17578,7 +17578,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .is-scrolling .header-inverse {
-    background: linear-gradient(179deg, #984a4a 0, #e74b3c 27%, #e74b3c 17%);
+    background: linear-gradient(179deg, #2b2b2b 0, #494949 27%, #494949 17%);
     opacity: 0.97;
 }
 
