@@ -22487,7 +22487,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #FFAD00 !important;
     background: linear-gradient(135deg, #ffd22a 0, #fa9a00 20%, #ffd22a 100%);
     -webkit-background-clip: text;
-    text-shadow: 13px 13px 9px #000;
+    text-shadow: none;
     -webkit-text-fill-color: transparent;
 }
 
@@ -22500,7 +22500,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     background: linear-gradient(102deg, #ef3927 60%, #e74b3c 20%, #e74b3c 20%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 13px 13px 9px #000;
+    text-shadow: none;
 }
 
 .text-indigo {
