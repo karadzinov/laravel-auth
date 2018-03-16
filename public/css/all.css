@@ -21875,6 +21875,11 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     background-size: cover;
 }
 
+.main-bg2 {
+    background-image: url('https://protiumdesign.com/wp-content/uploads/2017/01/Material-Design-Background.jpg');
+    background-size: cover;
+}
+
 .bg-white {
     background: #fff !important;
 }
