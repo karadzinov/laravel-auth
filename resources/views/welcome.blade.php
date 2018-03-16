@@ -288,10 +288,9 @@
                                             class="terminal-height">25</span></span></div>
                             <div class="text-body">
 
-                                <p>Welcome visitor from <span class="text-blue" id="address"></span>. How are you today?</p>
-                                <p>We can check that the weather is <span class="text-blue" id="weather"></span>. Anyway we are here to help you out.</p>
-
-                                <span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span class="text-blue" data-type="ping developers, whois pingdevs.com"></span>
+                                <p>Welcome visitor from <span class="text-red" id="address"></span>. How are you today?</p>
+                                <p>We can check that the weather is <span class="text-red" id="weather"></span>. Anyway we are here to help you out.</p>
+                                <span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span class="text-red" data-type="ping developers, whois pingdevs.com"></span>
 
 
                             </div>
