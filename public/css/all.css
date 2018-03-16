@@ -4780,6 +4780,11 @@ input, textarea {
 .u-z-index-50 {
   z-index: 50; }
 
+.main-bg {
+	background-image: url('https://habrastorage.org/files/307/6ce/247/3076ce2471b94c1096b0b5bafefecb05.jpg');
+	background-size: cover;
+}
+
 .bg-white {
   background: #fff !important; }
   .bg-white-opacity-0_1 {
@@ -5130,7 +5135,7 @@ input, textarea {
   color: #111 !important; }
 
 .text-blue {
-  color: #0081FF !important; }
+  color: #00d8ff !important; }
 
 .text-purple {
   color: #8C47E2 !important; }

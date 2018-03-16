@@ -269,7 +269,7 @@
 
 
 </style>
-<section class="u-pt-md-150 pb-0 u-h-100vh bg-purple">
+<section class="u-pt-md-150 pb-0 u-h-100vh main-bg">
     <div class="container">
         <div class="row text-center">
 
@@ -287,10 +287,10 @@
                                             class="terminal-height">25</span></span></div>
                             <div class="text-body">
 
-                                <p>Welcome visitor from <span class="text-purple" id="address"></span>. How are you today?</p>
-                                <p>We can check that the weather is <span class="text-purple" id="weather"></span>. Anyway we are here to help you out.</p>
+                                <p>Welcome visitor from <span class="text-blue" id="address"></span>. How are you today?</p>
+                                <p>We can check that the weather is <span class="text-blue" id="weather"></span>. Anyway we are here to help you out.</p>
 
-                                ping@devs [~]: $ <span class="text-purple" data-type="ping developers, whois pingdevs.com"></span>
+                                ping@devs [~]: $ <span class="text-blue" data-type="ping developers, whois pingdevs.com"></span>
 
 
                             </div>
