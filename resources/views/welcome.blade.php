@@ -177,6 +177,7 @@
         -ms-transition: all 0.5s ease-out;
         -o-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
+        font-family: 'Raleway', sans-serif;
     }
 
     hr {
