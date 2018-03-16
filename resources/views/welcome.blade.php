@@ -275,7 +275,7 @@
         <div class="row text-center">
 
             <div class="col-lg-10 mx-auto u-pt-80">
-                <h1 class="display-4 text-white main-text">
+                <h1 class="text-white main-text">
                     Get your startup idea up and running
                 </h1>
 
@@ -291,7 +291,7 @@
                                 <p>Welcome visitor from <span class="text-blue" id="address"></span>. How are you today?</p>
                                 <p>We can check that the weather is <span class="text-blue" id="weather"></span>. Anyway we are here to help you out.</p>
 
-                                ping@devs [~]: $ <span class="text-blue" data-type="ping developers, whois pingdevs.com"></span>
+                                <span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span class="text-blue" data-type="ping developers, whois pingdevs.com"></span>
 
 
                             </div>
