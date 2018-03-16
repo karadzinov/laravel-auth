@@ -17578,11 +17578,12 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .is-scrolling .header-inverse {
-    background: #fff;
+    background: url(https://protiumdesign.com/wp-content/uploads/2017/01/Material-Design-Background.jpg);
+    opacity: 0.9;
 }
 
 .is-scrolling .header-inverse .nav-link {
-    color: #54667a;
+
 }
 
 .is-scrolling .header-shrink {
