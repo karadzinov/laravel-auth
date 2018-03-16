@@ -17280,7 +17280,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .is-scrolling .hamburger-inner, .is-scrolling .hamburger-inner::before, .is-scrolling .hamburger-inner::after {
-    background-color: #54667a;
+    background-color: #ffffff;
 }
 
 .hamburger-inner::before, .hamburger-inner::after {
