@@ -276,7 +276,7 @@
 
             <div class="col-lg-10 mx-auto u-pt-80">
                 <h1 class="text-white main-text">
-                    We can make your startup idea  <span data-type="up and running, live, ongoing, finished"></span>
+                    Get your startup idea up and running
                 </h1>
 
             </div>
