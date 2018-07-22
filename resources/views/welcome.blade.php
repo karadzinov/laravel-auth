@@ -392,7 +392,7 @@
             $.each(data, function(i,answer){
 
 
-                content = '<p><span class="text-blue">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$  ' + answer.message + '</p>';
+                content = '<p><span class="text-blue">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue">' + answer.message + '</span></p>';
                 $(content).appendTo("#answers");
             });
         });
