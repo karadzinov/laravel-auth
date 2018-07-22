@@ -55,9 +55,9 @@ class SlackCommand extends BaseHandler
         $message['message'] = ltrim($theMessage);
         $message['user_id'] = $this->guid;
         $message['flag']    = 'server';
-        if($message['message'] === "clear")
+        if($message['message'] == "clear")
         {
-            Message::where('user_id', '=', $this->guid)->delete();
+            Message::where('user_id', '=', $this->guid)->truncate();
         }
         $message->save();
 
