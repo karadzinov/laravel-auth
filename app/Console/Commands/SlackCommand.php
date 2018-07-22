@@ -7,6 +7,7 @@ use Spatie\SlashCommand\Handlers\BaseHandler;
 use Spatie\SlashCommand\Request;
 use Spatie\SlashCommand\Response;
 use App\Models\Message;
+use DB;
 
 class SlackCommand extends BaseHandler
 {
@@ -54,6 +55,10 @@ class SlackCommand extends BaseHandler
         $message['message'] = ltrim($theMessage);
         $message['user_id'] = $this->guid;
         $message['flag']    = 'server';
+        if($message['message'] === "clear")
+        {
+            Message::where('user_id', '=', $this->guid)->delete();
+        }
         $message->save();
 
         return $this->respondToSlack("You have typed this text: `{$request->text}`");
