@@ -2,42 +2,36 @@
 
 namespace App\Console\Commands;
 
-use Illuminate\Console\Command;
-use Spatie\SlashCommand\Request;
 
-class SlackCommand extends Command
+use Spatie\SlashCommand\Handlers\BaseHandler;
+use Spatie\SlashCommand\Request;
+use Spatie\SlashCommand\Response;
+
+class SlackCommand extends BaseHandler
 {
     /**
-     * The name and signature of the console command.
+     * If this function returns true, the handle method will get called.
      *
-     * @var string
-     */
-    protected $signature = 'slack';
-
-    /**
-     * The console command description.
+     * @param \Spatie\SlashCommand\Request $request
      *
-     * @var string
+     * @return bool
      */
-    protected $description = 'Slackcommand';
-
-    /**
-     * Create a new command instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public function canHandle(Request $request): bool
     {
-        parent::__construct();
+        return true;
     }
 
     /**
-     * Execute the console command.
+     * Handle the given request. Remember that Slack expects a response
+     * within three seconds after the slash command was issued. If
+     * there is more time needed, dispatch a job.
      *
-     * @return mixed
+     * @param \Spatie\SlashCommand\Request $request
+     *
+     * @return \Spatie\SlashCommand\Response
      */
-    public function handle(Request $request)
+    public function handle(Request $request): Response
     {
-        return $request->text;
+        return $this->respondToSlack("You have typed this text: `{$request->text}`");
     }
 }
