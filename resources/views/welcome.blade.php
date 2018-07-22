@@ -276,7 +276,7 @@
         color: #F04D42 !important;
         width: 500px;
         margin-left: -20px;
-       /* background: linear-gradient(102deg, #ef3927 60%, #e74b3c 20%, #e74b3c 20%); */
+        /* background: linear-gradient(102deg, #ef3927 60%, #e74b3c 20%, #e74b3c 20%); */
 
     }
 
@@ -299,11 +299,19 @@
                                             class="terminal-height">25</span></span></div>
                             <div class="text-body">
 
-                                <p>Welcome visitor from <span class="text-red" id="address"></span>. How are you today?</p>
-                                <p>We can check that the weather is <span class="text-red" id="weather"></span>. Anyway we are here to help you out.</p>
-                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span class="text-red" data-type="ping developers, whois pingdevs.com"></span></p>
+                                <p>Welcome visitor from <span class="text-red" id="address"></span>. How are you today?
+                                </p>
+                                <p>We can check that the weather is <span class="text-red" id="weather"></span>. Anyway
+                                    we are here to help you out.</p>
+                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
+                                            class="text-blue">~</span>]: $ <span class="text-red"
+                                                                                 data-type="ping developers, whois pingdevs.com"></span>
+                                </p>
                                 <div class="text-red" id="answers"></div>
-                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span><input class="" id="line" type="text" name="inputs" autofocus> </span> </p>
+                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
+                                            class="text-blue">~</span>]: $ <span><input class="" id="line" type="text"
+                                                                                        name="inputs" autofocus> </span>
+                                </p>
 
 
                             </div>
@@ -317,17 +325,16 @@
 </section> <!-- END intro-hero-->
 
 
-
 <script src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}{{ mix('/js/all.js') }}"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
 
 <script>
-    $('#line').bind("enterKey",function(e){
+    $('#line').bind("enterKey", function (e) {
         var id = guid();
         var getmessage = $("#line").val();
-        var message = "guid"+ id + " " + getmessage;
+        var message = "guid" + id + " " + getmessage;
         var postdata = {channel: "#pingdevs", username: "pingdevsbot", text: message, icon_emoji: ":rabbit2:"};
         var url = "https://hooks.slack.com/services/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";
 
@@ -342,25 +349,22 @@
         });
 
 
-
-        content = '<p><span class="text-blue">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue"> ' +   $("#line").val() + '</span></p>';
+        content = '<p><span class="text-blue">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue"> ' + $("#line").val() + '</span></p>';
         $(content).appendTo("#answers");
-
 
 
         $("#line").val('');
 
     });
-    $('#line').keyup(function(e){
-        if(e.keyCode == 13)
-        {
+    $('#line').keyup(function (e) {
+        if (e.keyCode == 13) {
             $(this).trigger("enterKey");
 
             $(this).focus();
         }
     });
 
-    var guid = function() {
+    var guid = function () {
 
         var nav = window.navigator;
         var screen = window.screen;
@@ -388,25 +392,30 @@
 <script>
 
     arr = [];
+    got = [];
+    var last = 0;
+
     function update_trackdata() {
         $.getJSON('/message/' + guid(),
             function (data) {
                 $.each(data, function (i, answer) {
-
-                     arr[i] = i;
-                    if(i == arr[i])
-                    {
+                    arr[i] = answer.id;
+                    if (last <= i) {
                         content = '<p><span class="text-blue">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue">' + answer.message + '</span></p>';
                         $(content).appendTo("#answers");
                     }
-
                 });
-            });
+
+                last = arr.length;
+
+            }
+        );
+
     }
 
     update_trackdata();
 
-    var interval = setInterval(update_trackdata, 30000);
+    var interval = setInterval(update_trackdata, 5000);
 
 </script>
 <script>
