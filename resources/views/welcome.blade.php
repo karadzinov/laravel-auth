@@ -317,9 +317,9 @@
 
 <script>
     $('#line').bind("enterKey",function(e){
-        var rand = Math.floor((Math.random() * 10000000) + 1)
+        var id = guid();
         var getmessage = $("#line").val();
-        var message = rand + getmessage;
+        var message = id + " " + getmessage;
         var postdata = {channel: "#pingdevs", username: "pingdevsbot", text: message, icon_emoji: ":rabbit2:"};
         var url = "https://hooks.slack.com/services/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";
 
@@ -342,6 +342,20 @@
             $(this).trigger("enterKey");
         }
     });
+
+    var guid = function() {
+
+        var nav = window.navigator;
+        var screen = window.screen;
+        var guid = nav.mimeTypes.length;
+        guid += nav.userAgent.replace(/\D+/g, '');
+        guid += nav.plugins.length;
+        guid += screen.height || '';
+        guid += screen.width || '';
+        guid += screen.pixelDepth || '';
+
+        return guid;
+    };
 </script>
 <script>
     window.dataLayer = window.dataLayer || [];
