@@ -44,17 +44,18 @@ class SlackCommand extends BaseHandler
 
         $result = preg_replace($re, $subst, $str);
         if($result) {
-            $resultArr = explode($result, " ");
+            $resultArr = explode(" ", $result);
             $user_id = $resultArr[0];
             $this->guid = $user_id;
         }
 
 
-        $theMessage = str_replace("guid".$result, '', $request->text);
+        $theMessage = str_replace("guid".$this->guid, '', $str);
 
         $message = new Message();
         $message['message'] = ltrim($theMessage);
         $message['user_id'] = $this->guid;
+        dd($message);
         $message->save();
 
         return $this->respondToSlack("You have typed this text: `{$request->text}`");
