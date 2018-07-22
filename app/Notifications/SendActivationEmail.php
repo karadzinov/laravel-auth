@@ -57,6 +57,16 @@ class SendActivationEmail extends Notification implements ShouldQueue
         return $message;
     }
 
+
+    public function toSlack($notifiable)
+    {
+        return (new SlackMessage)
+            ->from('Ghost', ':ghost:')
+            ->to('#pingdevs')
+            ->content('This will be sent to #pingdevs');
+    }
+
+
     /**
      * Get the array representation of the notification.
      *

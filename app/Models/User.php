@@ -112,4 +112,9 @@ class User extends Authenticatable
     {
         return $this->profiles()->detach($profile);
     }
+
+    public function routeNotificationForSlack($notification)
+    {
+        return $this->env('SLACK_WEBHOOK');
+    }
 }
