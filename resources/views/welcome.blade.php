@@ -413,7 +413,12 @@
                 $.each(data, function (i, answer) {
                     arr[i] = answer.id;
                     if (last <= i) {
-                        content = '<p><span class="text-orange">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-orange">~</span>]:$ <span class="text-white">' + answer.message + '</span></p>';
+
+                        if(answer.flag == 'local')
+                        {
+                            var name = 'you';
+                        }
+                        content = '<p><span class="text-orange">'+ name +'</span>@<span class="text-yellow">pingdevs</span> [<span class="text-orange">~</span>]:$ <span class="text-white">' + answer.message + '</span></p>';
                         $(content).appendTo("#answers");
                     }
                 });
