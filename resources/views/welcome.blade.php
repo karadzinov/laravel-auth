@@ -418,6 +418,9 @@
                         {
                             var name = 'you';
                         }
+                        else {
+                            var name = 'martin';
+                        }
                         content = '<p><span class="text-orange">'+ name +'</span>@<span class="text-yellow">pingdevs</span> [<span class="text-orange">~</span>]:$ <span class="text-white">' + answer.message + '</span></p>';
                         $(content).appendTo("#answers");
                     }
