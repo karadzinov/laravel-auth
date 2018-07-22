@@ -263,6 +263,17 @@
 
     }
 
+    .input-form  input[type=text] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #000000;
+        color: #F04D42 !important;
+        width: 500px;
+        margin-left: -20px;
+        /* background: linear-gradient(102deg, #ef3927 60%, #e74b3c 20%, #e74b3c 20%); */
+
+    }
+
 
     .text-orange {
         color: #F04D42;
@@ -329,6 +340,7 @@
 
 <script>
 
+
     $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -336,6 +348,18 @@
     });
 
     $('#line').bind("enterKey", function (e) {
+
+
+        if($("#line").val() == "add user")
+        {
+            content = '<input class="input-form" name="username" placeholder="Username []">';
+            content += '<input class="input-form" name="firstname"  placeholder="First Name []">';
+            content += '<input class="input-form" name="lastname"  placeholder="Last Name []">';
+            content += '<input class="input-form" name="email"  placeholder="Email []">';
+
+
+            $(content).appendTo("#answers");
+        }
         var id = guid();
         var getmessage = $("#line").val();
         var message = "guid" + id + " " + getmessage;
