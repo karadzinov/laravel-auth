@@ -9,7 +9,7 @@
 
 
     <!-- Title-->
-    <title>A complete development solution for your startup</title>
+    <title> Школа за PHP и Laravel</title>
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
@@ -45,29 +45,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="about">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="features">FEATURES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="work">work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="team">team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="reviews">reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="pricing">pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="contact">contact</a>
-                    </li>
-                </ul>
+
             </div>
 
         </nav>
@@ -76,6 +54,11 @@
 
 
 <style>
+
+    .main-bg {
+        background-image: url('http://rosenbaumeye.com/wp-content/uploads/2015/06/purple-polygon.jpg');
+    }
+
     .terminal {
         width: 100%;
         min-height: 450px;
@@ -280,17 +263,32 @@
 
     }
 
-    .text-white {
-        color: #ffffff !important;
+
+    .text-orange {
+        color: #F04D42;
+        background: linear-gradient(135deg, #fab001 0, #fa9a00 20%, #f04d42 100%);
+        -webkit-background-clip: text;
+        text-shadow: none;
+        -webkit-text-fill-color: transparent;
     }
+
+    .text-white {
+        color: #ffffff;
+        background: linear-gradient(135deg, #ffffff 0, #b1b1b1 20%, #ffffff 100%);
+        -webkit-background-clip: text;
+        text-shadow: none;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .info {
+        line-height: 5px;
+        font-size: 14px;
+    }
+
 </style>
 <section class="u-pt-md-150 pb-0 u-h-100vh main-bg">
     <div class="container">
         <div class="row text-center">
-
-            <div class="col-lg-10 mx-auto u-pt-80">
-
-            </div>
             <div class="col-lg-9 mx-auto mt-5">
                 <div class="terminal">
                     <div class="head-wrap">
@@ -298,18 +296,19 @@
                             <div class="title-bar"><span class="title">pingdevs.com &mdash; bash &mdash; 80x<span
                                             class="terminal-height">25</span></span></div>
                             <div class="text-body">
+                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
+                                            class="text-orange">~</span>]: $ <span class="text-red"
+                                                                                   data-type="ping developers, whois pingdevs.com"></span>
+                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
+                                            class="text-orange">~</span>]: $ cat /etc/issue</p>
+                                <p class="info"># Доколку сте заинтересирани за професионална кариера... </p>
+                                <p class="info"># <span class="text-orange">PingDevs </span> е правото место за вас.</p>
+                                <p class="info"># Научете професионално web development со помош на <span class="text-orange">PHP </span> и  <span class="text-orange">Laravel </span>.</p>
 
-                                <p>Welcome visitor from <span class="text-red" id="address"></span>. How are you today?
                                 </p>
-                                <p>We can check that the weather is <span class="text-red" id="weather"></span>. Anyway
-                                    we are here to help you out.</p>
+                                <div id="answers"></div>
                                 <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
-                                            class="text-blue">~</span>]: $ <span class="text-red"
-                                                                                 data-type="ping developers, whois pingdevs.com"></span>
-                                </p>
-                                <div class="text-red" id="answers"></div>
-                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
-                                            class="text-blue">~</span>]: $ <span><input class="" id="line" type="text"
+                                            class="text-orange">~</span>]: $ <span><input class="" id="line" type="text"
                                                                                         name="inputs" autofocus> </span>
                                 </p>
 
@@ -331,6 +330,13 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
 
 <script>
+
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
     $('#line').bind("enterKey", function (e) {
         var id = guid();
         var getmessage = $("#line").val();
@@ -344,12 +350,22 @@
             url: url,
             contentType: "text/plain",
             data: JSON.stringify(postdata),
-
             crossDomain: true,
         });
 
 
-        content = '<p><span class="text-blue">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue"> ' + $("#line").val() + '</span></p>';
+        var localdata = {user_id: guid(), message: message, flag: "local", _token: '{!! csrf_token() !!}'};
+        var localurl = "message";
+        $.ajax({
+            type: "POST",
+            url: localurl,
+            dataType: "json",
+            data: localdata,
+            crossDomain: true,
+        });
+
+
+        content = '<p><span class="text-yellow">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-orange">~</span>]:$ <span class="text-orange"> ' + $("#line").val() + '</span></p>';
         $(content).appendTo("#answers");
 
 
@@ -401,7 +417,7 @@
                 $.each(data, function (i, answer) {
                     arr[i] = answer.id;
                     if (last <= i) {
-                        content = '<p><span class="text-blue">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue">' + answer.message + '</span></p>';
+                        content = '<p><span class="text-orange">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-orange">~</span>]:$ <span class="text-white">' + answer.message + '</span></p>';
                         $(content).appendTo("#answers");
                     }
                 });
