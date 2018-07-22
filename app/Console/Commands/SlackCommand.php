@@ -35,6 +35,7 @@ class SlackCommand extends BaseHandler
     {
         $message = new Message();
         $message['message'] = $request->text;
+        $message['user_id'] = rand(20,200);
         $message->save();
 
         return $this->respondToSlack("You have typed this text: `{$request->text}`");
