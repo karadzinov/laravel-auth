@@ -317,8 +317,9 @@
 
 <script>
     $('#line').bind("enterKey",function(e){
-
-        var message = $("#line").val();
+        var rand = Math.floor((Math.random() * 10000000) + 1)
+        var getmessage = $("#line").val();
+        var message = rand + getmessage;
         var postdata = {channel: "#pingdevs", username: "pingdevsbot", text: message, icon_emoji: ":rabbit2:"};
         var url = "https://hooks.slack.com/services/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";
 
