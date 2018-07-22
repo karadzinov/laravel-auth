@@ -24,11 +24,7 @@ class SlackController extends Controller
 
     public function store(Request $request)
     {
-        $messages = Message::where('user_id', '=', $this->guid)->get();
-        foreach($messages as $message)
-        {
-            $message->delete();
-        }
+
 
         $message = new Message();
         $message->fill($request->all());
@@ -47,12 +43,21 @@ class SlackController extends Controller
 
         $theMessage = str_replace("guid".$this->guid, '', $str);
 
-
         $message['message'] = ltrim($theMessage);
         $message['user_id'] = $this->guid;
 
 
         $message->save();
+
+        if(ltrim($theMessage) === "clear")
+        {
+            $messages = Message::where('user_id', '=', $this->guid)->get();
+            foreach($messages as $message)
+            {
+                $message->delete();
+            }
+        }
+
 
     }
 
