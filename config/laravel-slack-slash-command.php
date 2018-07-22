@@ -21,7 +21,7 @@ return [
      */
     'handlers' => [
 
-        \App\Http\Controllers\SlackController::class,
+
         //this handler will display instructions on how to use the various commands.
         Spatie\SlashCommand\Handlers\Help::class,
 
