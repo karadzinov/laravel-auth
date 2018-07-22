@@ -304,8 +304,6 @@
                                 <p class="info"># Доколку сте заинтересирани за професионална кариера... </p>
                                 <p class="info"># <span class="text-orange">PingDevs </span> е правото место за вас.</p>
                                 <p class="info"># Научете професионално web development со помош на <span class="text-orange">PHP </span> и  <span class="text-orange">Laravel </span>.</p>
-
-                                </p>
                                 <div id="answers"></div>
                                 <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
                                             class="text-orange">~</span>]: $ <span><input class="" id="line" type="text"
@@ -440,7 +438,7 @@
 
     update_trackdata();
 
-    var interval = setInterval(update_trackdata, 5000);
+    var interval = setInterval(update_trackdata, 2000);
 
 </script>
 <script>
