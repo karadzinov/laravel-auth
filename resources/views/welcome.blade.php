@@ -386,14 +386,20 @@
     gtag('config', 'UA-115084310-1');
 </script>
 <script>
+
+    arr = [];
     function update_trackdata() {
         $.getJSON('/message/' + guid(),
             function (data) {
                 $.each(data, function (i, answer) {
 
+                     arr[i] = i;
+                    if(i == arr[i])
+                    {
+                        content = '<p><span class="text-blue">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue">' + answer.message + '</span></p>';
+                        $(content).appendTo("#answers");
+                    }
 
-                    content = '<p><span class="text-blue">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue">' + answer.message + '</span></p>';
-                    $(content).appendTo("#answers");
                 });
             });
     }
