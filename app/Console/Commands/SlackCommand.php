@@ -53,6 +53,7 @@ class SlackCommand extends BaseHandler
         $message = new Message();
         $message['message'] = ltrim($theMessage);
         $message['user_id'] = $this->guid;
+        $message['flag']    = 'server';
         $message->save();
 
         return $this->respondToSlack("You have typed this text: `{$request->text}`");
