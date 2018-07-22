@@ -36,8 +36,6 @@ class SlackCommand extends BaseHandler
     public function handle(Request $request): Response
     {
 
-
-
         $re = '/[guid]/m';
         $str = $request->text;
         $subst = '';
@@ -55,7 +53,6 @@ class SlackCommand extends BaseHandler
         $message = new Message();
         $message['message'] = ltrim($theMessage);
         $message['user_id'] = $this->guid;
-        dd($message);
         $message->save();
 
         return $this->respondToSlack("You have typed this text: `{$request->text}`");
