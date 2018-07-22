@@ -47,7 +47,8 @@ class SlackCommand extends BaseHandler
             $this->guid = $result;
         }
 
-        $theMessage = str_replace("guid".$this->guid, '', $request->text);
+
+        $theMessage = str_replace("guid".$result, '', $request->text);
 
         $message = new Message();
         $message['message'] = ltrim($theMessage);
