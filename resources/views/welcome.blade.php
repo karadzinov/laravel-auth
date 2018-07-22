@@ -411,6 +411,11 @@
         $.getJSON('/message/' + guid(),
             function (data) {
                 $.each(data, function (i, answer) {
+                    if(i == 0)
+                    {
+                        content = '';
+                        $(content).appendTo("#answers");
+                    }
                     arr[i] = answer.id;
                     if (last <= i) {
 
