@@ -412,9 +412,7 @@
             function (data) {
                 if(jQuery.isEmptyObject(data))
                 {
-                        console.log('nothing here');
                         $("#answers").html('');
-
                 }
                 $.each(data, function (i, answer) {
 
