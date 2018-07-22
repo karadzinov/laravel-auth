@@ -44,7 +44,9 @@ class SlackCommand extends BaseHandler
 
         $result = preg_replace($re, $subst, $str);
         if($result) {
-            $this->guid = $result;
+            $resultArr = explode($result, " ");
+            $user_id = $resultArr[0];
+            $this->guid = $user_id;
         }
 
 
