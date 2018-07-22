@@ -171,7 +171,7 @@
         line-height: 1.40em;
         font-weight: 500;
         text-align: left;
-        overflow: hidden;
+        overflow: scroll;
         -webkit-transition: all 0.5s ease-out;
         -moz-transition: all 0.5s ease-out;
         -ms-transition: all 0.5s ease-out;
@@ -274,8 +274,14 @@
         border: none;
         border-bottom: 1px solid #000000;
         color: #F04D42 !important;
+        width: 500px;
+        margin-left: -20px;
        /* background: linear-gradient(102deg, #ef3927 60%, #e74b3c 20%, #e74b3c 20%); */
 
+    }
+
+    .text-white {
+        color: #ffffff !important;
     }
 </style>
 <section class="u-pt-md-150 pb-0 u-h-100vh main-bg">
@@ -296,7 +302,9 @@
                                 <p>Welcome visitor from <span class="text-red" id="address"></span>. How are you today?</p>
                                 <p>We can check that the weather is <span class="text-red" id="weather"></span>. Anyway we are here to help you out.</p>
                                 <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span class="text-red" data-type="ping developers, whois pingdevs.com"></span></p>
-                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span><input class="" id="line" type="text" name="inputs"> </span> </p>
+                                <div class="text-red" id="answers"></div>
+                                <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span class="text-blue">~</span>]: $ <span><input class="" id="line" type="text" name="inputs" autofocus> </span> </p>
+
 
                             </div>
                         </div>
@@ -333,6 +341,13 @@
             crossDomain: true,
         });
 
+
+
+        content = '<p><span class="text-red">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]: $<span class="text-white"> ' +   $("#line").val() + '</span></p>';
+        $(content).appendTo("#answers");
+
+
+
         $("#line").val('');
 
     });
@@ -340,6 +355,8 @@
         if(e.keyCode == 13)
         {
             $(this).trigger("enterKey");
+
+            $(this).focus();
         }
     });
 
@@ -368,7 +385,18 @@
 
     gtag('config', 'UA-115084310-1');
 </script>
+<script>
 
+    $.getJSON('/message/' + guid(),
+        function(data){
+            $.each(data, function(i,answer){
+
+
+                content = '<p><span class="text-red">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]: $' + answer.message + '</p>';
+                $(content).appendTo("#answers");
+            });
+        });
+</script>
 <script>
     $.get("http://ipinfo.io", function (response) {
         $("#address").html(response.city);
