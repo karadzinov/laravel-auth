@@ -343,7 +343,7 @@
 
 
 
-        content = '<p><span class="text-red">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-white"> ' +   $("#line").val() + '</span></p>';
+        content = '<p><span class="text-blue">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-blue"> ' +   $("#line").val() + '</span></p>';
         $(content).appendTo("#answers");
 
 
