@@ -143,3 +143,4 @@ Route::get('/phpinfo', function() {
 
 
 Route::get('/message', 'SlackController@index');
+Route::get('/message/{user_id}', 'SlackController@getMessages');
