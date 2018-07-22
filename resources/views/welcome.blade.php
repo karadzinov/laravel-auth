@@ -365,10 +365,6 @@
         });
 
 
-        content = '<p><span class="text-yellow">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-orange">~</span>]:$ <span class="text-orange"> ' + $("#line").val() + '</span></p>';
-        $(content).appendTo("#answers");
-
-
         $("#line").val('');
 
     });

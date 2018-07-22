@@ -18,7 +18,7 @@ class SlackController extends Controller
 
     public function getMessages($user_id)
     {
-        $messages = Message::where('user_id', '=', $user_id)->where('flag', '!=', 'local')->get();
+        $messages = Message::where('user_id', '=', $user_id)->get();
         return response()->json($messages);
     }
 
