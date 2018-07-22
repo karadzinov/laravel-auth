@@ -20,6 +20,7 @@ return [
      * until the first one whose `canHandle` method returns true.
      */
     'handlers' => [
+        \App\Events\Slack::class,
         //add your own handlers here
 
         //this handler will display instructions on how to use the various commands.
