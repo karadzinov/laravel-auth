@@ -6,6 +6,7 @@ namespace App\Console\Commands;
 use Spatie\SlashCommand\Handlers\BaseHandler;
 use Spatie\SlashCommand\Request;
 use Spatie\SlashCommand\Response;
+use App\Models\Message;
 
 class SlackCommand extends BaseHandler
 {
@@ -32,6 +33,10 @@ class SlackCommand extends BaseHandler
      */
     public function handle(Request $request): Response
     {
+        $message = new Message();
+        $message['message'] = $request->text;
+        $message->save();
+
         return $this->respondToSlack("You have typed this text: `{$request->text}`");
     }
 }
