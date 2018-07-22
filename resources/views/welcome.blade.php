@@ -343,7 +343,7 @@
 
 
 
-        content = '<p><span class="text-red">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]: $<span class="text-white"> ' +   $("#line").val() + '</span></p>';
+        content = '<p><span class="text-red">you</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]:$ <span class="text-white"> ' +   $("#line").val() + '</span></p>';
         $(content).appendTo("#answers");
 
 
@@ -392,7 +392,7 @@
             $.each(data, function(i,answer){
 
 
-                content = '<p><span class="text-red">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]: $' + answer.message + '</p>';
+                content = '<p><span class="text-blue">martin</span>@<span class="text-yellow">pingdevs</span> [<span class="text-blue">~</span>]: $' + answer.message + '</p>';
                 $(content).appendTo("#answers");
             });
         });
