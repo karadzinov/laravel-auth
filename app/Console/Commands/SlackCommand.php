@@ -10,6 +10,8 @@ use App\Models\Message;
 
 class SlackCommand extends BaseHandler
 {
+
+    public $guid;
     /**
      * If this function returns true, the handle method will get called.
      *
@@ -33,9 +35,20 @@ class SlackCommand extends BaseHandler
      */
     public function handle(Request $request): Response
     {
+
+
+        $re = '/[guid]/m';
+        $str = $request->text;
+        $subst = '';
+
+        $result = preg_replace($re, $subst, $str);
+        if($result) {
+            $this->guid = $result;
+        }
+
         $message = new Message();
         $message['message'] = $request->text;
-        $message['user_id'] = rand(20,200);
+        $message['user_id'] = $this->guid;
         $message->save();
 
         return $this->respondToSlack("You have typed this text: `{$request->text}`");

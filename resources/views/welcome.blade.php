@@ -319,7 +319,7 @@
     $('#line').bind("enterKey",function(e){
         var id = guid();
         var getmessage = $("#line").val();
-        var message = id + " " + getmessage;
+        var message = "guid"+ id + " " + getmessage;
         var postdata = {channel: "#pingdevs", username: "pingdevsbot", text: message, icon_emoji: ":rabbit2:"};
         var url = "https://hooks.slack.com/services/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";
 
