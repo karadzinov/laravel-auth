@@ -410,11 +410,14 @@
     function update_trackdata() {
         $.getJSON('/message/' + guid(),
             function (data) {
+                if(jQuery.isEmptyObject(data))
+                {
+                        console.log('nothing here');
+                        $("#answers").html('');
+
+                }
                 $.each(data, function (i, answer) {
-                    if(last == 0)
-                    {
-                        $("#answers").html();
-                    }
+
                     arr[i] = answer.id;
                     if (last <= i) {
 
