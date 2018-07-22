@@ -140,3 +140,6 @@ Route::redirect('/php', '/phpinfo', 301);
 Route::get('/phpinfo', function() {
     phpinfo();
 });
+
+
+Route::get('/message', 'SlackController@index');

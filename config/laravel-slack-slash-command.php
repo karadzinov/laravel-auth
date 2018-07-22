@@ -20,9 +20,8 @@ return [
      * until the first one whose `canHandle` method returns true.
      */
     'handlers' => [
-        \App\Events\Slack::class,
-        //add your own handlers here
 
+        \App\Http\Controllers\SlackController::class,
         //this handler will display instructions on how to use the various commands.
         Spatie\SlashCommand\Handlers\Help::class,
 
