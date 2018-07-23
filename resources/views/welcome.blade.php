@@ -352,10 +352,10 @@
 
         if($("#line").val() == "add user")
         {
-            content = '<input class="input-form" name="username" placeholder="Username []">';
-            content += '<input class="input-form" name="firstname"  placeholder="First Name []">';
-            content += '<input class="input-form" name="lastname"  placeholder="Last Name []">';
-            content += '<input class="input-form" name="email"  placeholder="Email []">';
+            content = '<input type="text" class="input-form" name="username" placeholder="Username []">';
+            content += '<input type="text"  class="input-form" name="firstname"  placeholder="First Name []">';
+            content += '<input type="text"  class="input-form" name="lastname"  placeholder="Last Name []">';
+            content += '<input type="text" class="input-form" name="email"  placeholder="Email []">';
 
 
             $(content).appendTo("#answers");
