@@ -300,7 +300,7 @@
 <section class="u-pt-md-150 pb-0 u-h-100vh main-bg">
     <div class="container">
         <div class="row text-center">
-            <div class="col-lg-9 mx-auto mt-5">
+            <div class="col-lg-9 mx-auto">
                 <div class="terminal">
                     <div class="head-wrap">
                         <div class="text-editor-wrap">
