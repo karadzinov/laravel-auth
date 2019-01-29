@@ -6,7 +6,23 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="A complete development solution for your StartUp">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
     <!-- Title-->
     <title> Школа за PHP и Laravel</title>
@@ -16,13 +32,11 @@
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
 
     {{-- Styles --}}
-    <link href="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}{{ mix('/css/all.css') }}" rel="stylesheet">
+    <link href="{{ mix('/css/all.css') }}" rel="stylesheet">
 
 </head>
 
 <body id="top">
-
-
 <!--[if lt IE 8]>
 <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
     to improve your experience.</p>
@@ -33,7 +47,7 @@
         <nav class="navbar navbar-expand-lg">
 
             <a class="navbar-brand" href="/" style="color: white;">
-                PingDevs
+			         <img src="images/pingdevs.png" alt="PingDevs" style="width: 100px"/> 
             </a>
 
             <button class="navbar-toggler p-0" data-toggle="collapse" data-target="#navbarNav">
@@ -56,7 +70,6 @@
 <style>
 
     .main-bg {
-        background-image: url('http://rosenbaumeye.com/wp-content/uploads/2015/06/purple-polygon.jpg');
     }
 
     .terminal {
@@ -122,7 +135,7 @@
         margin: auto;
         max-width: 800px;
         border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+        box-shadow: rgba(0, 0, 0, 0.6) 0px 20px 70px;
         clear: both;
         overflow: hidden;
         -webkit-transition: all 0.5s ease-out;
@@ -142,7 +155,6 @@
         background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
         background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
         box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
-        border-bottom: #6a6a6a 1px solid;
     }
 
     .text-body {
@@ -255,7 +267,6 @@
     input[type=text] {
         background: transparent;
         border: none;
-        border-bottom: 1px solid #000000;
         color: #F04D42 !important;
         width: 500px;
         margin-left: -20px;
@@ -295,7 +306,7 @@
         line-height: 5px;
         font-size: 14px;
     }
-
+   ::-webkit-scrollbar { display: none; }
 </style>
 <section class="u-pt-md-150 pb-0 u-h-100vh main-bg">
     <div class="container">
@@ -312,9 +323,7 @@
                                                                                    data-type="ping developers, whois pingdevs.com"></span>
                                 <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
                                             class="text-orange">~</span>]: $ cat /etc/issue</p>
-                                <p class="info"># Доколку сте заинтересирани за професионална кариера... </p>
-                                <p class="info"># <span class="text-orange">PingDevs </span> е правото место за вас.</p>
-                                <p class="info"># Научете професионално web development со помош на <span class="text-orange">PHP </span> и  <span class="text-orange">Laravel </span>.</p>
+                                <p class="info"># <span class="text-orange">PingDevs </span> наскоро...</p>
                                 <div id="answers"></div>
                                 <p><span class="text-red">ping</span>@<span class="text-yellow">devs</span> [<span
                                             class="text-orange">~</span>]: $ <span><input class="" id="line" type="text"
@@ -333,7 +342,33 @@
 </section> <!-- END intro-hero-->
 
 
-<script src="http://images{{ rand(1,5) }}.{{ env('APP_DOMAIN') }}{{ mix('/js/all.js') }}"></script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="617216202070148"
+  theme_color="#7646ff">
+</div>
+
+<script src="{{ mix('/js/all.js') }}"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115084310-1"></script>
@@ -465,30 +500,13 @@
     var interval = setInterval(update_trackdata, 2000);
 
 </script>
-<script>
-    $.get("http://ipinfo.io", function (response) {
-        $("#address").html(response.city);
-        loadWeather(response.city, ''); //@params location, woeid
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/jquery-ui.js"></script>
 
-    }, "jsonp");
-</script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
-<script>
-    function loadWeather(location, woeid) {
-        $.simpleWeather({
-            location: location,
-            woeid: woeid,
-            unit: 'c',
-            success: function (weather) {
-                $("#weather").html(weather.currently);
-            },
-            error: function (error) {
-                $("#weather").html('<p>' + error + '</p>');
-            }
-        });
-    }
-</script>
-
-
+  <script>
+      $( function() {
+          $( ".terminal" ).draggable();
+      } );
+  </script>
 </body>
 </html>

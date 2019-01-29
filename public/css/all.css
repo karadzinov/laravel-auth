@@ -21874,7 +21874,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .main-bg {
-    background-image: url('http://rosenbaumeye.com/wp-content/uploads/2015/06/purple-polygon.jpg');
+    background-image: url('');
     background-size: cover;
 }
 
@@ -24092,4 +24092,10 @@ main-bg:before {
     -webkit-background-clip: text;
     text-shadow: 13px 13px 9px #000;
     -webkit-text-fill-color: transparent;
+}
+
+
+
+.terminal {
+    cursor: grab;
 }
